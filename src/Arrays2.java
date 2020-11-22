@@ -1,9 +1,10 @@
 public class Arrays2 {
     public static void main(String[] args) {
-        int[][] dArray = new int [3][];
-        for (int n =0; n<3; n++)
-            dArray[n] = new int [n +1];
-System.out.println(dArray);
 
+        for (int i = 1; i <=100; i++) {
+            if (i % 3 == 0)
+            if (i% 7 == 0)
+                System.out.print(i + " ");
+        }
     }
 }
